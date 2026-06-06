@@ -25,7 +25,7 @@
   .vs-lp .vs-nav .vs-wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
   .vs-lp .vs-logo{display:flex;align-items:center;text-decoration:none;transition:opacity .15s}
   .vs-lp .vs-logo:hover{opacity:0.9}
-  .vs-lp .vs-logo-img{height:55px;width:auto;object-fit:contain}
+  .vs-lp .vs-logo-img{height:100px;width:100;object-fit:contain}
   .vs-lp .vs-menu{display:flex;gap:26px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.04em}
   .vs-lp .vs-menu a{color:#fff;text-decoration:none;opacity:.9}
   .vs-lp .vs-menu a:hover{opacity:1;color:var(--vs-blue)}
