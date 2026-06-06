@@ -23,7 +23,7 @@
   /* Nav */
   .vs-lp .vs-nav{background:var(--vs-navy);color:#fff;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}
   .vs-lp .vs-nav .vs-wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
-  .vs-lp .vs-logo{display:flex;align-items:center;text-decoration:none;transition:opacity .15s;margin-left:10px;margin-right:30px;} /* Added margin-right to shift the menu 30px to the left */
+  .vs-lp .vs-logo{display:flex;align-items:center;text-decoration:none;transition:opacity .15s;margin-left:10px;margin-right:30px;}
   .vs-lp .vs-logo:hover{opacity:0.9}
   .vs-lp .vs-logo-img{height:200px;width:auto;object-fit:contain}
   .vs-lp .vs-menu{display:flex;gap:26px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.04em}
@@ -32,7 +32,7 @@
   @media(max-width:880px){.vs-lp .vs-menu{display:none}}
 
   /* Buttons */
-  .vs-lp .vs-btn{display:inline-block;background:var(--vs-blue);color:#fff;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:16px 26px;border-radius:8px;text-decoration:none;font-size:15px;transition:transform .15s,background .15s;border:none;cursor:pointer}
+  .vs-lp .vs-btn{display:inline-block;background:var(--vs-blue);color:#fff;font-weight:800;letter-spacing:.05em;padding:16px 26px;border-radius:8px;text-decoration:none;font-size:15px;transition:transform .15s,background .15s;border:none;cursor:pointer}
   .vs-lp .vs-btn:hover{background:var(--vs-blue-dark);transform:translateY(-2px)}
   .vs-lp .vs-btn-ghost{background:transparent;border:2px solid #fff;color:#fff}
   .vs-lp .vs-btn-ghost:hover{background:#fff;color:var(--vs-navy)}
@@ -48,8 +48,6 @@
   .vs-lp .vs-hero ul.checks li{display:flex;gap:12px;align-items:flex-start;color:#e6eef5;font-weight:600}
   .vs-lp .vs-hero ul.checks li::before{content:"";flex:none;width:22px;height:22px;border-radius:50%;background:var(--vs-blue) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='20 6 9 17 4 12'/></svg>") center/14px no-repeat;margin-top:2px}
   .vs-lp .vs-cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
-  .vs-lp .vs-call{color:#fff;font-weight:800;text-decoration:none;font-size:18px}
-  .vs-lp .vs-call span{color:var(--vs-blue);font-size:13px;display:block;text-transform:uppercase;letter-spacing:.1em;font-weight:700}
 
   .vs-lp .vs-hero-visual{position:relative}
   .vs-lp .vs-hero-visual .vs-card{background:#0d1e2d;border:1px solid rgba(255,255,255,.08);border-radius:16px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.45)}
@@ -153,7 +151,7 @@
         <a href="#reviews">Reviews</a>
         <a href="#faq">FAQ</a>
       </div>
-      <a href="#cta" class="vs-btn">Contact Us</a>
+      <a href="#cta" class="vs-btn" style="text-transform: uppercase;">Contact Us</a>
     </div>
   </nav>
 
@@ -170,10 +168,7 @@
           <li>Stolen vehicle recovery service included</li>
         </ul>
         <div class="vs-cta-row">
-          <a href="#cta" class="vs-btn">Get A Free Quote</a>
-          <a href="tel:+442046368841" class="vs-call">
-            <span>Or call now</span>020 4636 8841
-          </a>
+          <a href="#cta" class="vs-btn" style="text-transform: uppercase;">Get A Free Quote</a>
         </div>
       </div>
 
@@ -315,8 +310,8 @@
       <h2>Protect Your Van. <span class="vs-accent">Protect Your Livelihood.</span></h2>
       <p>Speak to a VanSecure specialist today — free advice, transparent pricing, and a fitted system you'll never have to think about again.</p>
       <div class="vs-cta-row" style="justify-content:center">
-        <a href="tel:+442046368841" class="vs-btn">Call 020 4636 8841</a>
-        <a href="https://vansecure.co.uk/contact" class="vs-btn vs-btn-ghost">Request A Quote</a>
+        <a href="tel:+442046368841" class="vs-btn">CALL 020 4636 8841</a>
+        <a href="https://vansecure.co.uk/contact" class="vs-btn vs-btn-ghost">REQUEST A QUOTE</a>
       </div>
     </div>
   </section>
