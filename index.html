@@ -23,9 +23,9 @@
   /* Nav */
   .vs-lp .vs-nav{background:var(--vs-navy);color:#fff;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}
   .vs-lp .vs-nav .vs-wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
-  .vs-lp .vs-logo{display:flex;align-items:center;text-decoration:none;transition:opacity .15s;margin-left:10px;margin-right:50px;} /* Increased right margin by 30px to shift menu items left */
+  .vs-lp .vs-logo{display:flex;align-items:center;text-decoration:none;transition:opacity .15s;margin-left:10px;margin-right:30px;} /* Added margin-right to shift the menu 30px to the left */
   .vs-lp .vs-logo:hover{opacity:0.9}
-  .vs-lp .vs-logo-img{height:200px;width:auto;object-fit:contain} /* Increased logo height from 170px to 200px */
+  .vs-lp .vs-logo-img{height:200px;width:auto;object-fit:contain}
   .vs-lp .vs-menu{display:flex;gap:26px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.04em}
   .vs-lp .vs-menu a{color:#fff;text-decoration:none;opacity:.9}
   .vs-lp .vs-menu a:hover{opacity:1;color:var(--vs-blue)}
