@@ -21,11 +21,11 @@
   .vs-lp .vs-stars{color:#ffb400;letter-spacing:2px}
 
   /* Nav */
-  .vs-lp .vs-nav{background:var(--vs-navy);color:#fff;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+  .vs-lp .vs-nav{background:var(--vs-navy);color:#fff;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08)}
   .vs-lp .vs-nav .vs-wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
-  .vs-lp .vs-logo{display:flex;align-items:center;text-decoration:none;transition:opacity .15s;margin-left:10px;margin-right:30px;} /* Increased right margin by 30px to shift menu items left */
+  .vs-lp .vs-logo{display:flex;align-items:center;text-decoration:none;transition:opacity .15s;margin-left:5px;margin-right:70px;} /* Increased right margin by 70px to shift menu items left */
   .vs-lp .vs-logo:hover{opacity:0.9}
-  .vs-lp .vs-logo-img{height:250px;width:auto;object-fit:contain} /* Increased logo height from 200px to 250px */
+  .vs-lp .vs-logo-img{height:230px;width:auto;object-fit:contain} /* Increased logo height from 200px to 230px */
   .vs-lp .vs-menu{display:flex;gap:26px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.04em}
   .vs-lp .vs-menu a{color:#fff;text-decoration:none;opacity:.9}
   .vs-lp .vs-menu a:hover{opacity:1;color:var(--vs-blue)}
