@@ -21,10 +21,11 @@
   .vs-lp .vs-stars{color:#ffb400;letter-spacing:2px}
 
   /* Nav */
-  .vs-lp .vs-nav{background:var(--vs-navy);color:#fff;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+  .vs-lp .vs-nav{background:var(--vs-navy);color:#fff;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}
   .vs-lp .vs-nav .vs-wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
-  .vs-lp .vs-logo{display:flex;align-items:center;gap:10px;color:#fff;font-weight:900;font-size:24px;text-decoration:none}
-  .vs-lp .vs-logo .vs-mark{width:34px;height:34px;border-radius:8px;background:var(--vs-blue);display:grid;place-items:center;color:#fff;font-weight:900}
+  .vs-lp .vs-logo{display:flex;align-items:center;text-decoration:none;transition:opacity .15s}
+  .vs-lp .vs-logo:hover{opacity:0.9}
+  .vs-lp .vs-logo-img{height:55px;width:auto;object-fit:contain}
   .vs-lp .vs-menu{display:flex;gap:26px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.04em}
   .vs-lp .vs-menu a{color:#fff;text-decoration:none;opacity:.9}
   .vs-lp .vs-menu a:hover{opacity:1;color:var(--vs-blue)}
@@ -143,7 +144,7 @@
   <nav class="vs-nav">
     <div class="vs-wrap">
       <a class="vs-logo" href="https://vansecure.co.uk">
-        <span class="vs-mark">V</span> VanSecure
+        <img class="vs-logo-img" src="https://github.com/askmacoy/Van-Secure/blob/main/vansecure-logo-stacked-inverted-300x300.webp?raw=true" alt="VanSecure Logo">
       </a>
       <div class="vs-menu">
         <a href="#cams">Dash Cams</a>
