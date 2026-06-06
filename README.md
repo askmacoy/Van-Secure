@@ -108,12 +108,35 @@
   .vs-lp .vs-rev .who{font-weight:800;color:var(--vs-navy);font-size:14px}
   .vs-lp .vs-rev .who span{display:block;color:var(--vs-mute);font-weight:600;font-size:13px;margin-top:2px}
 
-  /* CTA banner */
+  /* CTA banner & Form */
   .vs-lp .vs-cta{background:linear-gradient(135deg,var(--vs-navy) 0%,var(--vs-navy-deep) 100%);color:#fff;text-align:center;position:relative;overflow:hidden}
   .vs-lp .vs-cta::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(28,176,232,.25),transparent 60%)}
   .vs-lp .vs-cta .vs-wrap{position:relative}
   .vs-lp .vs-cta h2{color:#fff;max-width:760px;margin:0 auto 16px}
   .vs-lp .vs-cta p{color:#cfdce6;max-width:600px;margin:0 auto 30px;font-size:17px}
+  
+  /* Form block elements mapped from image_29b426.png */
+  .vs-lp .vs-quote-card {background:#fff;border-radius:12px;padding:32px;max-width:800px;margin:0 auto;text-align:left;box-shadow:0 12px 32px rgba(0,0,0,0.25)}
+  .vs-lp .vs-quote-card h3 {color:#2c3e50;font-size:26px;font-weight:700;margin-bottom:20px;text-align:left}
+  .vs-lp .vs-quote-card h3 span {color:#1cb0e8}
+  .vs-lp .vs-whatsapp-btn {display:flex;align-items:center;justify-content:center;gap:8px;background:#25d366;color:#fff;text-decoration:none;font-weight:700;font-size:15px;letter-spacing:0.03em;padding:14px;border-radius:6px;width:100%;margin-bottom:24px;transition:background 0.2s;text-transform:uppercase}
+  .vs-lp .vs-whatsapp-btn:hover {background:#20ba5a}
+  .vs-lp .vs-whatsapp-btn svg {width:18px;height:18px;fill:#fff}
+  .vs-lp .vs-divider {display:flex;align-items:center;text-align:center;color:#7f8c8d;font-size:12px;font-weight:700;margin:24px 0;letter-spacing:0.04em}
+  .vs-lp .vs-divider::before, .vs-lp .vs-divider::after {content:'';flex:1;border-bottom:1px solid #bdc3c7}
+  .vs-lp .vs-divider:not(:empty)::before {margin-right:16px}
+  .vs-lp .vs-divider:not(:empty)::after {margin-left:16px}
+  .vs-lp .vs-form-grid {display:grid;grid-template-columns:1fr 1fr;gap:16px 20px;margin-bottom:16px}
+  @media(max-width:600px){.vs-lp .vs-form-grid {grid-template-columns:1fr}}
+  .vs-lp .vs-input-group {width:100%}
+  .vs-lp .vs-input-group.full-width {grid-column:span 2}
+  @media(max-width:600px){.vs-lp .vs-input-group.full-width {grid-column:span 1}}
+  .vs-lp .vs-form-control {width:100%;padding:12px 16px;border:1px solid #3498db;border-radius:6px;font-family:inherit;font-size:14px;color:#2c3e50;outline:none;background:#fff;font-weight:600}
+  .vs-lp .vs-form-control::placeholder {color:#bdc3c7;font-weight:500}
+  .vs-lp textarea.vs-form-control {resize:vertical;min-height:90px}
+  .vs-lp .vs-submit-row {display:flex;justify-content:flex-end;margin-top:16px}
+  .vs-lp .vs-form-submit {background:#1cb0e8;color:#fff;border:none;border-radius:6px;padding:12px 24px;font-weight:700;font-size:14px;cursor:pointer;transition:background 0.2s;text-transform:uppercase;letter-spacing:0.02em}
+  .vs-lp .vs-form-submit:hover {background:#0f8fc2}
 
   /* FAQ */
   .vs-lp .vs-faq-list{max-width:820px;margin:0 auto;display:grid;gap:14px}
@@ -309,10 +332,51 @@
       <div class="vs-lines" style="max-width:280px;margin:0 auto 22px"></div>
       <h2>Protect Your Van. <span class="vs-accent">Protect Your Livelihood.</span></h2>
       <p>Speak to a VanSecure specialist today — free advice, transparent pricing, and a fitted system you'll never have to think about again.</p>
-      <div class="vs-cta-row" style="justify-content:center">
-        <a href="tel:+442046368841" class="vs-btn">CALL 020 4636 8841</a>
-        <a href="https://vansecure.co.uk/contact" class="vs-btn vs-btn-ghost">REQUEST A QUOTE</a>
+      
+      <!-- Generated Form block modeled exactly after image_29b426.png -->
+      <div class="vs-quote-card">
+        <h3>Get A <span>Tailored Quote</span> Now</h3>
+        
+        <a href="https://wa.me/442046368841" class="vs-whatsapp-btn" target="_blank">
+          Get A Quote Over Whatsapp 
+          <svg viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.455L0 24zm6.59-3.559c1.601.95 3.515 1.451 5.414 1.452 5.498 0 9.971-4.47 9.975-9.969.002-2.665-1.033-5.171-2.908-7.049-1.876-1.878-4.379-2.914-7.046-2.915-5.5 0-9.975 4.471-9.979 9.97-.001 1.897.504 3.754 1.464 5.372l-.993 3.627 3.714-.974zm12.355-7.142c-.29-.145-1.714-.846-1.979-.942-.266-.096-.459-.145-.653.146-.193.29-.748.942-.917 1.134-.169.192-.338.217-.628.072-1.353-.678-2.235-1.218-3.123-2.744-.236-.407.236-.378.675-1.252.073-.145.036-.272-.018-.381-.054-.109-.459-1.106-.628-1.515-.165-.397-.333-.343-.459-.349l-.392-.007c-.135 0-.354.051-.54.254-.185.203-.707.691-.707 1.684s.723 1.949.824 2.083c.101.135 1.423 2.172 3.447 3.047.481.208.857.332 1.151.426.484.154.925.132 1.274.08.389-.057 1.714-.7 1.956-1.376.241-.676.241-1.254.169-1.376-.073-.123-.266-.193-.556-.339z"/>
+          </svg>
+        </a>
+
+        <div class="vs-divider">OR COMPLETE THE FORM BELOW</div>
+
+        <form action="#" method="POST">
+          <div class="vs-form-grid">
+            <div class="vs-input-group">
+              <input type="text" name="first_name" class="vs-form-control" placeholder="First Name..." required>
+            </div>
+            <div class="vs-input-group">
+              <input type="text" name="last_name" class="vs-form-control" placeholder="Last Name..." required>
+            </div>
+            <div class="vs-input-group">
+              <input type="email" name="email" class="vs-form-control" placeholder="Email Address..." required>
+            </div>
+            <div class="vs-input-group">
+              <input type="tel" name="phone" class="vs-form-control" placeholder="Phone Number..." required>
+            </div>
+            <div class="vs-input-group">
+              <input type="text" name="post_code" class="vs-form-control" placeholder="Post Code..." required>
+            </div>
+            <div class="vs-input-group">
+              <input type="text" name="van_registration" class="vs-form-control" placeholder="Van Registration Number...">
+            </div>
+            <div class="vs-input-group full-width">
+              <textarea name="message" class="vs-form-control" placeholder="How can we help?"></textarea>
+            </div>
+          </div>
+          
+          <div class="vs-submit-row">
+            <button type="submit" class="vs-form-submit">Get A Quote</button>
+          </div>
+        </form>
       </div>
+
     </div>
   </section>
 
