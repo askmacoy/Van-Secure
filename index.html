@@ -144,7 +144,7 @@
   <nav class="vs-nav">
     <div class="vs-wrap">
       <a class="vs-logo" href="https://vansecure.co.uk">
-        <img class="vs-logo-img" src="https://github.com/askmacoy/Van-Secure/blob/main/Gemini_Generated_Image_3csk063csk063csk.png?raw=true" alt="VanSecure Logo">
+        <img class="vs-logo-img" src="https://github.com/askmacoy/Van-Secure/blob/main/Vansecure%20Landing%20Page%20Logo.png?raw=true" alt="VanSecure Logo">
       </a>
       <div class="vs-menu">
         <a href="#cams">Dash Cams</a>
